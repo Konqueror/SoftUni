@@ -1,0 +1,15 @@
+*.exe
+*.stackdump
+*.sh
+_ReSharper.*
+/src
+/nbproject
+bin
+obj
+*.suo
+*.user
+*.gz
+*.sql
+.directory
+.DS_Store
+Thumbs.db
