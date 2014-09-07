@@ -1,6 +1,5 @@
-*.exe
 *.stackdump
-*.sh
+*git.sh
 _ReSharper.*
 /src
 /nbproject
