@@ -1,0 +1,5 @@
+// cmd command to compile java source file
+javac SumTwoNumbers.java
+
+// cmd command to run compiled binary file
+java SumTwoNumbers
