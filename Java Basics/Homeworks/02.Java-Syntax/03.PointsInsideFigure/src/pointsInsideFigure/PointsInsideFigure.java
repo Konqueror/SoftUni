@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class PointsInsideFigure {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		Double x=0.0, y=0.0;
 		
@@ -20,10 +21,12 @@ public class PointsInsideFigure {
 		boolean isIn = (x >= 12.5 && x <= 22.5) && (y >= 6 && y <= 13.5);
 		boolean isOut = (x > 17.5 && x < 20.0) && (y > 8.5 && y < 13.5);
 		
-		
-		if (isIn && !isOut) {
+		if (isIn && !isOut) 
+		{
 			System.out.println("Inside");
-		} else {
+		} 
+		else 
+		{
 			System.out.println("Outside");
 		}
 	}

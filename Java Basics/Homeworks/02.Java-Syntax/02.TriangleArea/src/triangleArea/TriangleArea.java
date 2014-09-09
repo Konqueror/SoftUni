@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class TriangleArea {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		Integer aX=0, aY=0, bX=0, bY=0, cX=0, cY=0;
 		
