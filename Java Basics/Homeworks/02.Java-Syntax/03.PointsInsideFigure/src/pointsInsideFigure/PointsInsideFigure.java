@@ -17,11 +17,10 @@ public class PointsInsideFigure {
 		
 		input.close();
 		
-		// defining borders for "in" and "out"
-		boolean isIn = (x >= 12.5 && x <= 22.5) && (y >= 6 && y <= 13.5);
-		boolean isOut = (x > 17.5 && x < 20.0) && (y > 8.5 && y < 13.5);
+		// is the point in the box
+		boolean isInBox = ( (x >= 12.5 && x <= 22.5) && (y >= 6 && y <= 13.5) ) &! ( (x > 17.5 && x < 20.0) && (y > 8.5 && y < 13.5) );
 		
-		if (isIn && !isOut) 
+		if (isInBox) 
 		{
 			System.out.println("Inside");
 		} 
