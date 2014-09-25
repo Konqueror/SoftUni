@@ -1,0 +1,18 @@
+body
+{
+	background-color: lightblue;
+	font-family: "Times New Roman";
+}
+
+hr
+{
+	width: 100%;
+	color: white;
+}
+
+img
+{
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+}
