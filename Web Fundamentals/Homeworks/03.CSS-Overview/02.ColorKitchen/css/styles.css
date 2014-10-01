@@ -1,0 +1,106 @@
+* {margin: 0; padding: 0;}
+
+body {background: url(../img/colorful_dots_on_black.jpg) repeat; font-family: 'Tahoma',sans-serif;}
+
+body > header
+{
+	width: 100%;
+	color: #ffff00;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 40px;
+    background:-moz-linear-gradient(left,rgba(255,0,0,1) 0%,rgba(255,0,0,1) 33%,rgba(0,128,0,1) 33%,rgba(0,128,0,1) 69%,rgba(0,0,255,1) 69%,rgba(0,0,255,1) 100%);
+    background:-o-linear-gradient(left,rgba(255,0,0,1) 0%,rgba(255,0,0,1) 33%,rgba(0,128,0,1) 33%,rgba(0,128,0,1) 69%,rgba(0,0,255,1) 69%,rgba(0,0,255,1) 100%);
+    background:-ms-linear-gradient(left,rgba(255,0,0,1) 0%,rgba(255,0,0,1) 33%,rgba(0,128,0,1) 33%,rgba(0,128,0,1) 69%,rgba(0,0,255,1) 69%,rgba(0,0,255,1) 100%);
+    background:-webkit-linear-gradient(left,rgba(255,0,0,1) 0%,rgba(255,0,0,1) 33%,rgba(0,128,0,1) 33%,rgba(0,128,0,1) 69%,rgba(0,0,255,1) 69%,rgba(0,0,255,1) 100%);
+    background:linear-gradient(left,rgba(255,0,0,1) 0%,rgba(255,0,0,1) 33%,rgba(0,128,0,1) 33%,rgba(0,128,0,1) 69%,rgba(0,0,255,1) 69%,rgba(0,0,255,1) 100%);
+}
+
+header#webColors {background-color: #f00; color: #fff;}
+header#webSafeColors {background-color: #ffbc00; color: #000;}
+header#RGB {background-color: #ff0; color: #000;}
+header#RGBA {background-color: #0f0; color: #fff;}
+header#HSLHSV {background-color: #00f; color: #fff;}
+header#lorem {background-color: #370037; color: #fff;}
+
+a:visited {color: #808080;}
+
+aside
+{
+	width: 17%;
+	background-color: rgba(255,255,255, .9);
+	border-radius: 20px;
+	padding: 20px;
+	position: fixed;
+	margin-left: 10px;
+}
+
+aside ul {list-style: none;}
+
+aside header
+{
+	font-size: 25px;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+aside li
+{
+	border-radius: 10px;
+	padding: 5px 5px 5px 40px;
+	background: url(../img/list-style.png) 10px 8px no-repeat;
+	font-size: 20px;
+}
+
+aside li a
+{
+	color: #000;
+	text-decoration: none;
+}
+
+aside ul li:nth-child(1):hover {background-color: #f00;}
+aside ul li:nth-child(2):hover {background-color: #ffbc00;}
+aside ul li:nth-child(3):hover {background-color: #ff0;}
+aside ul li:nth-child(4):hover {background-color: #0f0;}
+aside ul li:nth-child(5):hover {background-color: #00f;}
+aside ul li:nth-child(6):hover {background-color: #370037;}
+
+main
+{
+	width: 75%;
+	float: right;
+	margin-right: 20px;
+}
+
+main article
+{
+	background-color: rgba(255,255,255, .9);
+	border-radius: 20px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+main article header
+{
+	height: 50px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 40px;
+}
+
+main article div:first-letter {font-size: 60px;}
+main article div:first-line {font-style: italic;}
+
+main article a
+{
+	color: #373737;
+	line-height: 35px
+}
+
+main article span[lang="la"]
+{
+	color: #0303b4;
+	font-style: italic;
+}
