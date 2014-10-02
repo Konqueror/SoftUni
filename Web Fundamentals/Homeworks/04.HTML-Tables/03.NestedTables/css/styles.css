@@ -1,0 +1,16 @@
+table img
+{
+	margin: 20px 10px;
+}
+
+table table
+{
+	margin: 0 10px;
+	font-size: 70px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+table table td
+{
+	padding: 0 10px;
+}
