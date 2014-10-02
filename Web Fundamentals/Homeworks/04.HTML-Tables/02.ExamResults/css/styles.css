@@ -1,0 +1,22 @@
+table
+{
+	width: 390px;
+	margin: 0 auto;
+	font-family: 'Tahoma', sans-serif;
+}
+
+table thead tr:first-child
+{
+	font-weight: bold;
+	font-size: 23px;
+}
+
+table thead tr:last-child
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+table tfoot {text-align: right;}
+
+table td {padding:0 4px;}
