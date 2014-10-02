@@ -1,0 +1,30 @@
+table
+{
+	width: 390px;
+	margin: 0 auto;
+	border: 1px solid #bfbfbf;
+	font-family: 'Tahoma', sans-serif;
+}
+
+table thead
+{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+table thead td {padding-bottom: 20px;}
+
+table tbody td
+{
+	padding-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+table tbody td p
+{
+	color: #3f4b55;
+	font-weight: normal;
+	margin: 0;
+	font-size: 15.5px;
+}
