@@ -1,0 +1,18 @@
+table
+{
+	font-family: 'Tahoma', sans-serif;
+	font-size: 20px;
+}
+
+table colgroup
+{
+	width: 110px;
+}
+
+td
+{
+	height: 110px;
+	padding:0 5px;
+}
+
+td td {height: 55px;}
