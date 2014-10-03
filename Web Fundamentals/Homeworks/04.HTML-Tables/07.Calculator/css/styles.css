@@ -1,0 +1,22 @@
+button
+{
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	font-family: "Tahoma", sans-serif;
+	font-size:15px;
+}
+
+input
+{
+	width: 212px;
+	height: 50px;
+	text-align: right;
+	font-family: "Tahoma", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+table {border:1px solid silver;}
+
+table td {border:1px solid silver;}
