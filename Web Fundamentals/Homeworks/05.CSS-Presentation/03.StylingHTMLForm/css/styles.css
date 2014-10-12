@@ -1,0 +1,98 @@
+body
+{
+	font-family: 'Arial', sans-serif;
+	background: url(../img/formBackground.jpg) repeat;
+}
+
+form
+{
+	width: 400px;
+}
+
+.row
+{
+	border: 1px solid #fff;
+	background-color: rgba(255,255,255,.3);
+	float: left;
+	margin-bottom: 3px;
+	border-radius: 5px;
+	width: 300px;
+	padding: 5px;
+}
+
+h1
+{
+	font-size: 16px;
+	color: #fff;
+	float: left;
+}
+
+label
+{
+	font-size: 13px;
+	max-width: 100px;
+	float: left;
+	margin-top: 4px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea
+{
+	float: right;
+	margin-right: 40px;
+	width: 150px;
+	font-size: 11px;
+	padding: 3px;
+	background-color: #fff;
+	border: 0 none;
+	border-radius: 2px;
+}
+
+button
+{
+	float: left;
+	margin: 20px 0 0 100px;
+	background-color: #04152f;
+	border: 0 none;
+	border-radius: 20px;
+	color: #fff;
+	padding: 5px 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover
+{
+	background-color: #142f58;
+}
+
+input:focus, textarea:focus
+{
+	background-color: #ccc;
+}
+
+.card-type input
+{
+	float: left;
+}
+
+.card-type label.title
+{
+	max-width: 290px;
+	width: 290px;
+	padding-left: 0px;
+	margin-bottom: 10px;
+	background: none;
+}
+
+.card-type label
+{
+	padding-left: 27px;
+	margin-right: 5px;
+	background: url(../img/card-types.png) no-repeat;
+}
+
+.card-type label.visa {background-position: 0 0;}
+
+.card-type label.amex {background-position: 0 -17px;}
+
+.card-type label.mastercard {background-position: 0 100%;}
