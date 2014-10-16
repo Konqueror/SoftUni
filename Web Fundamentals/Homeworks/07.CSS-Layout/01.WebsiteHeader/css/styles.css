@@ -1,0 +1,140 @@
+* {margin: 0; padding: 0;}
+
+ul {list-style: none;}
+
+a {color: #fff; text-decoration: none;}
+
+body {font-family: 'Tahoma', sans-serif;}
+
+#wrapper {width: 960px; margin: 0 auto;}
+
+header
+{
+	width: 100%;
+	background-color: #234465;
+	height: 110px;
+}
+
+header .logo
+{
+	float: left;
+	margin-top: 30px;
+}
+
+header .title-nav
+{
+	float: right;
+	margin: 20px 0 10px;
+}
+
+header nav {float: right;}
+
+header li
+{
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+
+header nav li {padding: 8px 0;}
+
+header nav li a {color: #fff; text-decoration: none;}
+
+header nav li, header .title-nav li
+{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+header nav > ul > li:hover {background-color: #4ca0db; border-radius: 5px;}
+
+header li.dropdown:after
+{
+	content: '\25BC';
+	font-size: 9px;
+	position: relative;
+	top: -2px;
+	right: -3px;
+}
+
+header li.dropdown:hover ul {display: block;}
+
+header li.notification
+{
+	background: url(../img/bell.png) right 0 no-repeat;
+	padding-right: 25px;
+}
+
+header li ul
+{
+	width: 300px;
+	position: absolute;
+	z-index: 2;
+	background-color: #234465;
+	top: 33px;
+	left: -5px;
+	display: none;
+	box-shadow: 0 0 2px #000;
+}
+
+header li ul li
+{
+	float: none;
+	display: block;
+	padding: 10px 20px;
+	border-bottom: 1px solid #44607c;
+	text-transform:none;
+	font-weight: normal
+}
+
+header li ul li:hover {background-color: #ff9c00;}
+header li.title a {color: #4ca0db; font-weight: bold;}
+
+header .title-nav input
+{
+	height: 32px;
+	width: 220px;
+	border: 1px solid #d5d5d5;
+	border-right: 0 none;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	float: left;
+}
+
+header .title-nav button
+{
+	width: 30px;
+	height: 32px;
+	border: 1px solid #d5d5d5;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #fff url(../img/search-icon.png) center no-repeat;
+	float: left;
+	cursor: pointer;
+}
+
+header .title-nav ul li
+{
+	float: left;
+	margin-top: 10px;
+	position: relative;
+}
+
+header .title-nav ul li:nth-child(3) {margin: 0;}
+
+header .title-nav ul li ul li
+{
+	float: none;
+	display: block;
+	margin: 0;
+	text-align: left;
+}
+
+header .title-nav li ul {top: 16px;}
+header .title-nav li ul li {text-transform: none;}
