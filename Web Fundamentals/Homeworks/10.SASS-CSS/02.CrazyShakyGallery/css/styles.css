@@ -1,0 +1,51 @@
+* {margin: 0; padding: 0;}
+
+.gallery
+{
+    width: 530px;
+}
+
+img
+{
+    width: 150px;
+    height: 113px;
+    border: 2px solid #888;
+}
+
+.gallery div
+{
+    width: 152px;
+    height: 115px;
+    margin: 10px;
+    float: left;
+}
+
+img:hover
+{
+    animation: anim 3s;
+    position: absolute;
+    z-index: 2;
+}
+
+@keyframes ring
+{
+    0%  {transform: rotate(7deg);}
+    25%  {transform: rotate(0deg);}
+    50%  {transform: rotate(-7deg);}
+    100%  {transform: rotate(0deg);}
+}
+
+@keyframes anim
+{
+    from
+    {
+        animation: ring 0.5s;
+    }
+
+    to
+    {
+        transform: rotate(360deg);
+        width: 450px;
+        height: 339px;
+    }
+}
