@@ -1,0 +1,6 @@
+[submodule "Java Basics/Teamwork/BlockBreaker"]
+	path = Java Basics/Teamwork/BlockBreaker
+	url = https://github.com/TeamHuckleberry/BlockBreaker.git
+[submodule "Web Fundamentals/Teamwork/NABLK"]
+	path = Web Fundamentals/Teamwork/NABLK
+	url = https://github.com/TeamBlueberry/NABLK.git
