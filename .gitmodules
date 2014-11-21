@@ -4,3 +4,9 @@
 [submodule "Web Fundamentals/Teamwork/NABLK"]
 	path = Web Fundamentals/Teamwork/NABLK
 	url = https://github.com/TeamBlueberry/NABLK.git
+[submodule "JavaScript Basics/Teamwork/WebCasino"]
+	path = JavaScript Basics/Teamwork/WebCasino
+	url = https://github.com/TeamCockscombCrested/WebCasino.git
+[submodule "JavaScript Basics/Teamwork/JSGame"]
+	path = JavaScript Basics/Teamwork/JSGame
+	url = https://github.com/TeamCockscombCrested/JSGame.git
