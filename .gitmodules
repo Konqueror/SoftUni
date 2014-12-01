@@ -10,3 +10,6 @@
 [submodule "JavaScript Basics/Teamwork/JSGame"]
 	path = JavaScript Basics/Teamwork/JSGame
 	url = https://github.com/TeamCockscombCrested/JSGame.git
+[submodule "Unity 3D/Teamwork/GeusBreaker"]
+	path = Unity 3D/Teamwork/GeusBreaker
+	url = https://github.com/TeamGeus/GeusBreaker
