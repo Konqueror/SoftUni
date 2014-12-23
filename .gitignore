@@ -3,6 +3,8 @@
 _ReSharper.*
 /src
 /nbproject
+.idea
+.settings
 bin
 obj
 *.suo
