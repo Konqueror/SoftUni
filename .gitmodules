@@ -13,3 +13,6 @@
 [submodule "Unity 3D/Teamwork/GeusBreaker"]
 	path = Unity 3D/Teamwork/GeusBreaker
 	url = https://github.com/TeamGeus/GeusBreaker
+[submodule "PHP Basics/Teamwork/NeshtoShantavo"]
+	path = PHP Basics/Teamwork/NeshtoShantavo
+	url = https://github.com/TeamNavyPier/NeshtoShantavo.git
